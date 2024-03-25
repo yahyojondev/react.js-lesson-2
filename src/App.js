@@ -1,24 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/Hero';
+import Banner from './components/banner/Banner';
+import Wrapper from './components/wrapper/Wrapper'
+import {banner} from "./static/Index"
+import {wrapperproduct} from "./static/Index"
+import Footer from './components/footer/Footer';
 function App() {
+  let bannerproduct = banner?.map(el => (
+   <Banner key={el.id} {...el}/>  
+   ))
+   const products = wrapperproduct?.map(el=>(
+ 
+     <Wrapper key={el.id} {...el}/>
+   ))
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Navbar/>
+   <Hero/>
+   {bannerproduct}
+   {products}
+   <Footer/>
+ 
+  
+   </>
   );
 }
 
