@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner({title,text,link,link1,color,img}) {
   return (
-    <div className='banner' style={{background:`url(${img})no-repeat`}}>
+    <div className='banner' style={{background:`url(${img})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
        <div className="banner__wrapper">
             <h1 style={{color}} className='banner__title'>{title}</h1>
         <p style={{color}} className='banner__text'>{text}</p>

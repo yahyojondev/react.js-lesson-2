@@ -5,7 +5,12 @@ function Footer() {
     <>
     <div className='footer__section'>
         <div className="container">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet unde fugit illo explicabo modi neque reiciendis eius repudiandae totam dicta perferendis officiis debitis consequuntur, laudantium veritatis aliquam cumque itaque obcaecati cupiditate doloribus error incidunt tempora? Minus quos at ad, dignissimos dolores ipsum velit molestias deleniti voluptates soluta, nihil qui voluptas amet nam temporibus quia officia omnis distinctio maxime quas nobis delectus earum? Beatae eius soluta iste eveniet fugit unde facere sunt expedita ipsum consequatur, praesentium placeat dicta, mollitia ipsam, eligendi aliquam quibusdam rem iusto eos porro. Mollitia molestiae velit debitis dolor assumenda maiores delectus inventore cum tempora eos libero a odit molestias dignissimos nobis in, ex voluptates illo excepturi deleniti. Tempore est quam amet ipsa soluta necessitatibus consectetur repellendus iste labore fugit eligendi ab veritatis libero eius, nam natus deleniti neque repellat molestias nobis laboriosam placeat veniam eos quod? Consectetur obcaecati iure ut ducimus laboriosam, quis laborum dolorem nihil, provident minima hic omnis nostrum odio. Nostrum adipisci aspernatur nemo, eius hic nisi voluptatem ducimus, dolorem amet praesentium consequatur totam, iure fugiat. Doloribus fugit a tempora ipsam pariatur, voluptates sint quis qui iure natus quos, libero dolores nulla distinctio facilis quo? Ex atque illo similique aut maxime possimus labore ad facere? Inventore, unde quam commodi non quas nemo magnam dignissimos rem, error esse vel voluptatibus aspernatur dolores sit veniam, eum illo quae excepturi reprehenderit labore. Reprehenderit corrupti dicta eligendi recusandae rerum harum id, quam pariatur voluptatibus quod qui, sed nesciunt magnam officiis tempore temporibus nobis saepe. Optio, facere neque reiciendis pariatur quam nisi qui molestiae dignissimos corrupti blanditiis iusto, cum dolores, cumque inventore iste perspiciatis eveniet suscipit incidunt! Omnis sint, nobis voluptatum quisquam cum facilis, tempora laborum aspernatur veritatis ratione minima nam sed fuga! Ea quae ipsa, dolore ut soluta quaerat consectetur maiores omnis reiciendis id, dolores quod dolor modi similique non exercitationem aspernatur sequi? Aperiam, temporibus. Aspernatur, eligendi? Illum minima harum fugit nemo eum quidem sint praesentium a fuga, pariatur cumque, quos vitae architecto inventore necessitatibus minus repellendus optio, voluptas incidunt accusantium. Labore suscipit iusto tempora fugiat tenetur minus dolores unde iste asperiores minima eum laborum ex, quaerat expedita ducimus necessitatibus sequi praesentium consequatur blanditiis tempore assumenda eos aut adipisci! Saepe ut non, accusantium quibusdam illo placeat autem, enim sit quam nulla doloribus dolores, reprehenderit labore debitis laboriosam repellendus! Rem, omnis possimus. Fugiat earum dignissimos, numquam fugit blanditiis, placeat, aut reprehenderit ut deleniti cum laboriosam quasi. Sint, tempora fugit doloribus suscipit odio blanditiis modi  Mollitia nisi ex pariatur facilis obcaecati. Praesentium blanditiis perspiciatis non quibusdam, tempore et nemo alias laudantium perferendis. Cum natus tempora ut pariatur eius. Fugiat, vitae ad, quis nisi ullam animi obcaecati odio magnam voluptate unde illum delectus repudiandae, dicta amet cumque?</p>
+            <p className='footer__text'>1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
+Available in the U.S. on apple.com, in the Apple Store app, and at Apple Stores.
+To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+A subscription is required for Apple TV+.</p>
         </div>
 
     </div>
@@ -94,6 +99,22 @@ function Footer() {
                         </ul>
                     </li>
                  </ul>
+                 <div className="footer__bottom">
+                    <p className="footer__bottom__text">
+                        More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.
+                    </p> <hr />
+                    <div className="footer__bottom__wrapper">
+                        <ul className="footer__bottom__list">
+                            <li className="footer__bottom__item"><a href="#">Copyright © 2024 Apple Inc. All rights reserved.</a></li>
+                            <li className="footer__bottom__item"><a href="#">Privacy Police</a></li>
+                            <li className="footer__bottom__item"><a href="#">| Terms of Use</a></li>
+                            <li className="footer__bottom__item"><a href="#">| Sales and Refunds</a></li>
+                            <li className="footer__bottom__item"><a href="#">| Legal</a></li>
+                            <li className="footer__bottom__item"><a href="#">| Site Map</a></li>
+                        </ul>
+                        <a className='footer__bottom__link' href="#">United State</a>
+                    </div>
+                 </div>
             </div>
         </div>
     </div>

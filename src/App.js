@@ -20,7 +20,9 @@ function App() {
    <Navbar/>
    <Hero/>
    {bannerproduct}
-   {products}
+   <div className="wrapper__cards">
+      {products}
+   </div>
    <Footer/>
  
   
